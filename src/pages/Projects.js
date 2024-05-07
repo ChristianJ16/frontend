@@ -17,7 +17,7 @@ function Projects(props) {
 
   const loaded = () => {
     return projects.map((project) => (
-      <div>
+      <div className="style">
         <h1>{project.name}</h1>
         <img src={project.image} alt={project.name}/>
         <a href={project.git}>
